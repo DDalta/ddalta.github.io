@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>No-Taps Parking App</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./default.css">
+    </head>
+    <body>
+        <a href="index.html">BACK</a>
+        <div class="post-body">
+            <div class="post-section">
+                <h2 class="post-title">NO-TAPS PARKING APP</h2>
+                <p class="post-desc">A parking app for UCSC.</p>
+                <img class="post-img" src="images/no-taps/no-taps-logo-thumbnail.png">
+            </div>
+            
+            <div class="post-section">
+                <div class="post-subtitle">
+                    <img src="images/developer.png" draggable="false">
+                    <h3>Developers</h3>
+                </div>
+                <div style="display: flex; gap: 5em;">
+                    <ul>
+                        <li>Daniel Peralta</li>
+                        <li>Fariha Lateef</li>
+                        <li>Bryce Cheng</li>
+                    </ul>
+                    <ul>
+                        <li>Areeb Durrani</li>
+                        <li>Duo Yu</li>
+                        <li>Alonzo Acosta</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="post-section">
+                <div class="post-subtitle">
+                    <img src="images/support.png" draggable="false">
+                    <h3 class="post-subtitle">Tools Used</h3>
+                </div>
+                <div>
+                    <ul style="list-style:circle;padding-left: 1.5em;">
+                        <li><div>HTML/CSS</div></li>
+                        <li>Node.js</li>
+                        <li>Leaflet.js</li>
+                        <li>MySQL</li>
+                        <li>Caddy</li>
+                        <li>Asana</li>
+                        <li>GitHub</li>
+                        <li>Docker</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="post-section">
+                <div class="post-subtitle">
+                    <img src="images/clipboard.png" draggable="false">
+                    <h3>About This Project</h3>
+                </div>
+                <img class="post-img" src="images/no-taps/notaps_thumbnail.png">
+    
+                <p>
+                    Parking your car in UCSC has always been inconvenient, problematic, and frustrating.
+                    During busy hours, finding available parking can be difficult and can lead to congested roads and increased fuel consumption. 
+                    Our web app, No-Taps, provides a convenient way for students and visitors to view and report statuses of parking lots around campus.
+                </p>
+
+                <p>
+                    No-Taps highlights and color codes every parking lot with different color values that correspond the to availability of parking.
+                    This system relies on user based reporting to track real-time parking availability.
+                    For a selected parking lot, any verified user can submit a rating of 1 - 5 (1 meaning full and 5 being the opposite).
+                </p>
+    
+                <p>
+                    Any highlighted parking lot can be interacted with by the user. When selected, the lot's information (name, location, allowed permits, etc) appears in a bubble above the selection.
+                </p>
+    
+                <p>
+                    To find specific parking lots, users can provide criterias in a search.
+                    These criterias include name, allowed permits, parking duration, etc.
+                    No-Taps will then narrow down and only display lots that fit the provided criterias.
+                </p>
+    
+                <p>
+                    Being able to know if and where there is parking ahead of time can make it easier to plan out the drive on campus.
+                    No-Taps can conveniently proved  the information needed for those who commute or visit UCSC.
+                </p>
+
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/nnEeCHnOwJY?si=2Tbl_3aEiRxIzVr-" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="post-img-desc">Since permanently hosting the app wasn't feasible for us, here is a demo video</p>
+                </div>
+            </div>
+
+            <div class="post-section">
+                <div class="post-subtitle">
+                    <img src="images/cog-wheel.png" draggable="false">
+                    <h3>Develpoment</h3>
+                </div>
+    
+                <!-- https://www.scrum.org/resources/what-scrum-module -->
+                <p>
+                    During development, we utilized SCRUM, an agile project management process that assists teams manage and organize the development of a product.
+                    SCRUM involves breaking down a product's development into many 1-2 week long sprints.
+                    During each sprint, the team plans, implements, reviews, and reflects on a goal for the product. 
+                </p>
+    
+                <div>
+                    <img class="post-img" src="images/no-taps/scrum-framework-9.29.23.png">
+                    <p class="post-img-desc">Scrum Framework © <a href="https://www.scrum.org/" target="_blank" rel="noopener noreferrer">Scrum.org</a></p>
+                </div>
+    
+                <p>
+                    The No-Taps team met twice a week (both in-person and online) to plan, discuss, and provide feedback.
+                    For planning our sprints, we segmented the project based on what we felt could be done in a week.
+                    Each sprint, we assigned each other tasks and would spend about a week working on them.
+                    Near the end of the week, we met again to discuss what progress was made and provide feedback.
+                    We organized our goals by referencing our “User Stories” which describe features from the point of view of a No-Taps user.
+                </p>
+    
+                <div>
+                    <img class="post-img" src="images/no-taps/no-taps-asana.png">
+                    <p class="post-img-desc">No-Taps Asana board.</p>
+                </div>
+    
+                <p>
+                    My role involved collecting and handling the parking lot data.
+                    From resources provided by the school, I gathered data on each parking lot on and off campus.
+                    I then compiled all the collected data into a JSON file to make it easier to handle in JavaScript.
+                    Using JS, I then worked on developing visuals for parking lot statuses such as highlighting the lot and applying its color. 
+                </p>
+    
+                <div>
+                    <img class="post-img" src="images/no-taps/notaps-parking-data.png">
+                    <p class="post-img-desc">Parking data JSON</p>
+                </div>
+
+                <p>
+                    I integrated the functionality of filtering parking lots utilizing a simple function provided by a team member.
+                    The function filtered lots based on criterias provided by the user.
+                    I developed the interface where the user only needs to select a few checkboxes or input text to filter lots.
+                </p>
+    
+                <p>
+                    Lastly, I cleaned some UI elements by adding icons to make parking lot information more readable.
+                    I also included our app logo.
+                </p>
+
+            </div>
+            
+
+            <div class="post-section">
+                <div class="post-subtitle">
+                    <img src="images/pencil.png" draggable="false">
+                    <h3>Final Thoughts</h3>
+                </div>
+
+                <p>
+                    This project was a lot of fun to do. I learned a lot about how to develop a full-stack project
+                    from start to finish.
+                    This project involved both learning and utilizing SCRUM which proved to be a major challenge.
+                    However, I now feel prepared for when I will inevitably have to use SCRUM in the industry. 
+                </p>
+            </div>
+            
+        </div>
+    </body>
+</html>
