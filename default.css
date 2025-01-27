@@ -251,12 +251,13 @@ ul {
     border-radius: 5px;
     border: 1px solid rgb(78, 78, 78);
     margin-bottom: 50px;
+    justify-self: center;
 }
 
 .input-field {
-    width: 100%;
+    width: 98%;
     padding: 8px 0 8px 6px;
-    background-color: #eeeeee;
+    background-color: #ffffff;
     border: 1px solid rgb(78, 78, 78);
     border-radius: 5px;
     margin-bottom: 15px;
@@ -264,16 +265,22 @@ ul {
 
 #contact-form textarea{
     min-height: 100px;
-    max-width: 400px;
+    max-width: 392px;
 }
 
 #submit-btn {
     width: 100%;
     padding-top: 10px;
-	padding-bottom:10px; 
-    background-color: white;
-    border-radius: 4px;
-    border: none;
+	padding-bottom:10px;
+    background-color: #ffffff;
+    border-width: 1.5px;
+    border-radius: 5px;
+    /* border: none; */
+}
+
+#submit-btn:hover {
+    background-color: #7e7e7e;
+    color: white;
 }
 
 .contact-info-container {
