@@ -8,7 +8,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6, strong {
-    color: black;
+    color: #242E31;
     font-family: "Lexend", sans-serif;
     font-weight: 650;
 }
@@ -19,16 +19,17 @@ h3 {font-size: 22px;}
 
 a {
     text-decoration: none;
-    color: black;
+    color: #242E31;
     font-family: "Comfortaa", sans-serif;
 }
 
 a:visited {
-    color: black;
+    color: #242E31;
     text-decoration: none;
 }
 
 p, li, input, textarea{
+    color: #242E31;
     font-family: "Comfortaa", sans-serif;
     font-size: 18px;
     line-height: 28px;
@@ -42,14 +43,12 @@ ul {
 .section-1 {
     /* overflow: auto; */
     background-color: white;
-    /* border-bottom: 2px solid rgb(77, 77, 77); */
-    
 }
 
 .section-2 {
     /* overflow: auto; */
-    background-color: #eeeeee;
-    border-bottom: 1px solid rgb(77, 77, 77);
+    background-color: #f5f7fb;
+    /* border-bottom: 1px solid rgb(77, 77, 77); */
 }
 
 .section-container {
@@ -247,9 +246,9 @@ ul {
     max-width: 400px;
     padding: 15px;
     /* margin: 0 auto; */
-    background-color: #eeeeee;
+    background-color: #f5f7fb;
     border-radius: 5px;
-    border: 1px solid rgb(78, 78, 78);
+    border: 1px solid rgb(152, 155, 158);
     margin-bottom: 50px;
     justify-self: center;
 }
