@@ -4,4 +4,6 @@
 @theme {
     --font-comfortaa: "Comfortaa", sans-serif;
     --font-lexend: "Lexend", sans-serif;
+
+    --color-default-text-color: #242E31;
 }
