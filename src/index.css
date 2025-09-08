@@ -10,3 +10,12 @@
     --color-card-color: #E3EEF6;
     --color-tag-color: #AAFAED;
 }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend", sans-serif;
+  color: #242E31;
+  /* background: #0a0a0a; */
+}

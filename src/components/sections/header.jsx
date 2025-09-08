@@ -1,14 +1,20 @@
 
 const Header = () => {
     return (
-        <header>
-            <div className="flex justify-between px-30 py-10">
-                <p className="font-semibold text-[64px]">DANIEL PERALTA</p>
-                <div className="flex gap-15 items-center">
-                    <p className="font-light text-[20px]">ABOUT</p>
-                    <p className="font-light text-[20px]">PROJECTS</p>
-                    <p className="font-light text-[20px]">CONTACT</p>
-                    <p className="font-light text-[20px]">RESUME</p>
+        <header className="top-0 w-full">
+            <div className="max-w-7xl mx-auto">
+                <div className="flex justify-between py-8 px-4">
+                    <h1 className="font-semibold text-5xl lg:text-6xl md:text-4xl">DANIEL PERALTA</h1>
+                    {/* <p className="font-semibold text-[64px]">DANIEL PERALTA</p> */}
+                    <div className="md:hidden my-auto text-xl cursor-pointer w-8">
+                        &#9776;
+                    </div>
+                    <nav className="hidden md:flex space-x-12 items-center">
+                        <a href="" className="font-light text-xl">ABOUT</a>
+                        <a href="" className="font-light text-xl">PROJECTS</a>
+                        <a href="" className="font-light text-xl">CONTACT</a>
+                        <a href="" className="font-light text-xl">RESUME</a>
+                    </nav>
                 </div>
             </div>
         </header>

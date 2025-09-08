@@ -5,7 +5,7 @@ import linkedin_icon from "../../assets/icons/linkedin.png"
 
 const Hero = () => {
     return (
-        <div className="px-[150px]">
+        <div className="px-[150px] py-[50px]">
             <div className="flex gap-[200px] px-[150px]">
                 <div className="flex flex-col justify-between">
                     <div className="flex flex-col">
