@@ -6,7 +6,7 @@
     --font-lexend: "Lexend", sans-serif;
 
     --color-default-text-color: #242E31;
-    --color-secondary-section-color: #E6F7FF;
+    --color-secondary-section-color: #fafafa;
     --color-card-color: #E3EEF6;
     --color-tag-color: #AAFAED;
 }
@@ -17,5 +17,5 @@ body {
   padding: 0;
   font-family: "Lexend", sans-serif;
   color: #242E31;
-  /* background: #0a0a0a; */
+  scroll-behavior: smooth;
 }

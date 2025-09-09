@@ -3,21 +3,21 @@ import bta from "../../assets/images/projects/bta/thumbnail.png"
 
 const Projects = () => {
     return (
-        <div className="flex flex-col gap-[10px] px-[300px] py-[45px] bg-secondary-section-color">
-            <p className="text-center font-semibold text-[32px]">PROJECTS</p>
-            {/* PROJECTS COLUMN */}
-            <div className="flex flex-col gap-[25px] py-[10px]">
+        <section id="projects" className="w-full py-18 bg-secondary-section-color">
+            <div className="mx-auto max-w-6xl flex flex-col gap-8 px-5">
+                <h2 className="text-center font-semibold text-3xl">PROJECTS</h2>
+                
                 {/* PROJECT 1 CARD */}
-                <div className="px-[15px] py-[15px] rounded-[12px] bg-card-color shadow-xl">
-                    <div className="flex gap-[10px]">
+                <div className="w-full px-4 py-3 rounded-[12px] bg-card-color shadow-xl">
+                    <div className="flex flex-col md:flex-row gap-3">
                         {/* IMAGE */}
-                        <img className="w-[350px] h-[185px]" src={notaps}/>
+                        <img className="w-full md:w-2/5 md:flex-shrink-0 aspect-[350/185] my-auto rounded-[12px]" src={notaps}/>
                         {/* INFO */}
-                        <div className="flex flex-col justify-between">
+                        <div className="w-full md:w-3/5 flex flex-col justify-between gap-3">
                             {/* TEXT */}
-                            <div className="flex flex-col gap-[14px]">
-                                <p className="font-medium text-[20px]"> Parking App </p>
-                                <p className="text-[16px]">
+                            <div className="flex flex-col gap-1">
+                                <h3 className="font-medium text-xl">Parking App</h3>
+                                <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                     Cras vulputate  ullamcorper nulla eget aliquet. Vestibulum
                                     sagittis nisi eu posuere  malesuada. Nullam turpis nunc,
@@ -28,22 +28,21 @@ const Projects = () => {
                                 </p>
                             </div>
                             {/* TAGS */}
-                            <div className="flex justify-between content-end">
-                                <div className="flex gap-[10px]">
-                                    <div className="px-[4px] py-[4px] bg-tag-color rounded-[7px]"><p className="font-light text-[16px]">Node.js</p></div>
-                                    <div className="px-[4px] py-[4px] bg-tag-color rounded-[7px]"><p className="font-light text-[16px]">HTML</p></div>
-                                    <div className="px-[4px] py-[4px] bg-tag-color rounded-[7px]"><p className="font-light text-[16px]">CSS</p></div>
-                                    <div className="px-[4px] py-[4px] bg-tag-color rounded-[7px]"><p className="font-light text-[16px]">MySQL</p></div>
-                                    <div className="px-[4px] py-[4px] bg-tag-color rounded-[7px]"><p className="font-light text-[16px]">Caddy</p></div>
-                                    <div className="px-[4px] py-[4px] bg-tag-color rounded-[7px]"><p className="font-light text-[16px]">Asuna</p></div>
-                                    <div className="px-[4px] py-[4px] bg-tag-color rounded-[7px]"><p className="font-light text-[16px]">Git</p></div>
+                            <div className="flex justify-between content-center">
+                                <div className="flex gap-3">
+                                    <div className="px-1 py-1 bg-tag-color rounded-[7px]"><p className="font-light">Node.js</p></div>
+                                    <div className="px-1 py-1 bg-tag-color rounded-[7px]"><p className="font-light">HTML</p></div>
+                                    <div className="px-1 py-1 bg-tag-color rounded-[7px]"><p className="font-light">CSS</p></div>
+                                    <div className="px-1 py-1 bg-tag-color rounded-[7px]"><p className="font-light">MySQL</p></div>
+                                    <div className="px-1 py-1 bg-tag-color rounded-[7px]"><p className="font-light">Caddy</p></div>
+                                    <div className="px-1 py-1 bg-tag-color rounded-[7px]"><p className="font-light">Asuna</p></div>
+                                    <div className="px-1 py-1 bg-tag-color rounded-[7px]"><p className="font-light">Git</p></div>
                                 </div>
-                                <p className="font-medium text-[13px] underline">READ MORE</p>
+                                <p className="my-auto font-medium text-sm underline">READ MORE</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
 
                 {/* PROJECT 2 CARD */}
                 <div className="px-[15px] py-[15px] rounded-[12px] bg-card-color shadow-xl">
@@ -74,7 +73,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 };
 
