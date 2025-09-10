@@ -1,5 +1,11 @@
+import { useState } from "react";
+
+import DropDownMenu from "../layout/dropdown.jsx"
 
 const Header = () => {
+
+    const [open, setOpen] = useState(false);
+
     return (
         <header className="sticky top-0 w-full bg-white shadow-md ">
             <div className="max-w-7xl mx-auto">
@@ -10,7 +16,8 @@ const Header = () => {
                         <span>/&gt;</span>
                     </h1>
                     <div className="md:hidden my-auto text-xl cursor-pointer w-8">
-                        &#9776;
+                        <a className="select-none" onClick={() => setOpen(!open)}>&#9776;</a>
+                        {open && <DropDownMenu open={open} setOpen={setOpen}/>}
                     </div>
                     <nav className="hidden md:flex space-x-5 lg:space-x-7 justify-between items-center font-light text-lg">
                         <a href="#about">ABOUT</a>

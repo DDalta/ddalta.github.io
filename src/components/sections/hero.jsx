@@ -1,7 +1,7 @@
 import portrait from "../../assets/images/portrait.JPEG"
-import insta_icon from "../../assets/icons/instagram.png"
-import github_icon from "../../assets/icons/github.png"
-import linkedin_icon from "../../assets/icons/linkedin.png"
+import insta_icon from "../../assets/icons/instagram.svg"
+import github_icon from "../../assets/icons/github.svg"
+import linkedin_icon from "../../assets/icons/linkedin.svg"
 
 const Hero = () => {
     return (
@@ -17,9 +17,9 @@ const Hero = () => {
                         <p>Available for opportunities!</p>
                     </div>
                     <div className="flex gap-5 justify-center md:justify-start">
-                        <a href=""><img className="size-10 hover:-translate-y-1" src={insta_icon}/></a>
-                        <a href=""><img className="size-10 hover:-translate-y-1" src={github_icon}/></a>
-                        <a href=""><img className="size-10 hover:-translate-y-1" src={linkedin_icon}/></a>
+                        <a href=""><img className="size-10 hover:-translate-y-1 transition-transform" src={insta_icon}/></a>
+                        <a href=""><img className="size-10 hover:-translate-y-1 transition-transform" src={github_icon}/></a>
+                        <a href=""><img className="size-10 hover:-translate-y-1 transition-transform" src={linkedin_icon}/></a>
                     </div>
                 </div>
                 
