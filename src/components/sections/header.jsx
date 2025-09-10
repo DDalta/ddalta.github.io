@@ -3,17 +3,22 @@ const Header = () => {
     return (
         <header className="sticky top-0 w-full bg-white shadow-md ">
             <div className="max-w-7xl mx-auto">
-                <div className="flex justify-between py-8 px-4">
-                    <h1 className="font-semibold text-5xl lg:text-6xl md:text-4xl">DANIEL PERALTA</h1>
-                    {/* <p className="font-semibold text-[64px]">DANIEL PERALTA</p> */}
+                <div className="flex justify-between py-6 px-4 gap-2">
+                    <h1 className="font-semibold text-3xl lg:text-5xl">
+                        <span>&lt;</span>
+                        DANIEL PERALTA
+                        <span>/&gt;</span>
+                    </h1>
                     <div className="md:hidden my-auto text-xl cursor-pointer w-8">
                         &#9776;
                     </div>
-                    <nav className="hidden md:flex space-x-12 items-center">
-                        <a href="#about" className="font-light text-xl">ABOUT</a>
-                        <a href="" className="font-light text-xl">PROJECTS</a>
-                        <a href="" className="font-light text-xl">CONTACT</a>
-                        <a href="" className="font-light text-xl">RESUME</a>
+                    <nav className="hidden md:flex space-x-5 lg:space-x-7 justify-between items-center font-light text-lg">
+                        <a href="#about">ABOUT</a>
+                        <a href="#projects">PROJECTS</a>
+                        <a href="#contact">CONTACT</a>
+                        <div className="px-3 py-1 rounded-[18px] bg-[#88b5fc] hover:bg-[#a7c7fa]">
+                            <a href="">RESUME</a>
+                        </div>
                     </nav>
                 </div>
             </div>
