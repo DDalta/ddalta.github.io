@@ -1,7 +1,5 @@
 import portrait from "../../assets/images/portrait.JPEG"
-import insta_icon from "../../assets/icons/instagram.svg"
-import github_icon from "../../assets/icons/github.svg"
-import linkedin_icon from "../../assets/icons/linkedin.svg"
+import { SOCIALS } from "@/data/data.jsx"
 
 const Hero = () => {
     return (
@@ -17,9 +15,9 @@ const Hero = () => {
                         <p>Available for opportunities!</p>
                     </div>
                     <div className="flex gap-5 justify-center md:justify-start">
-                        <a href=""><img className="size-10 hover:-translate-y-1 transition-transform" src={insta_icon}/></a>
-                        <a href=""><img className="size-10 hover:-translate-y-1 transition-transform" src={github_icon}/></a>
-                        <a href=""><img className="size-10 hover:-translate-y-1 transition-transform" src={linkedin_icon}/></a>
+                        {SOCIALS.map((social, index) => (
+                            <a key={index} href={social.url}><img className="size-10 hover:-translate-y-1 transition-transform" src={social.icon}/></a>
+                        ))}
                     </div>
                 </div>
                 

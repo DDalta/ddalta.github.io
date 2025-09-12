@@ -1,6 +1,4 @@
-import insta_icon from "../../assets/icons/instagram.png"
-import github_icon from "../../assets/icons/github.png"
-import linkedin_icon from "../../assets/icons/linkedin.png"
+import { SOCIALS } from "@/data/data.jsx"
 
 const Contact = () => {
     return (
@@ -8,9 +6,9 @@ const Contact = () => {
             <div className="mx-auto max-w-6xl flex flex-col gap-8 px-5">
                 <p className="text-center font-semibold text-3xl">GET IN TOUCH</p>
                 <div className="flex gap-5 justify-center">
-                    <a href=""><img className="size-10 hover:-translate-y-1 transition-transform" src={insta_icon}/></a>
-                    <a href=""><img className="size-10 hover:-translate-y-1 transition-transform" src={github_icon}/></a>
-                    <a href=""><img className="size-10 hover:-translate-y-1 transition-transform" src={linkedin_icon}/></a>
+                    {SOCIALS.map((social, index) => (
+                            <a key={index} href={social.url}><img className="size-10 hover:-translate-y-1 transition-transform" src={social.icon}/></a>
+                    ))}
                 </div>
                 {/* FORM */}
                 <div className="px-5 mx-auto md:mx-[33%]">
