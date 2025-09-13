@@ -56,7 +56,8 @@ export const PROJECTS = [
             "Caddy",
             "Asuna",
             "Git"
-        ]
+        ],
+        url: "blog/projects/notaps"
     },
     {
         name: "Behaviour Tree Agent",
@@ -66,7 +67,8 @@ export const PROJECTS = [
             "Unity",
             "C#",
             "Git"
-        ]
+        ],
+        url: "blog/projects/bta"
     },
     {
         name: "Simple Network Chat App",
@@ -75,7 +77,8 @@ export const PROJECTS = [
         tags: [
             "Python"
 
-        ]
+        ],
+        url: "blog/projects/python-chat-app"
     },
     {
         name: "Arduino Sonar Sensor",
@@ -85,7 +88,8 @@ export const PROJECTS = [
             "Arduino",
             "Python",
             "PyGame"
-        ]
+        ],
+        url: "blog/projects/sonar-sensor"
     },
 ]
 

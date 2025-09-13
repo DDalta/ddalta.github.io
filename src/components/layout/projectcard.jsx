@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const ProjectCard = ({project}) => {
     return (
         <div className="w-full px-4 py-3 rounded-[12px] bg-card-color shadow-xl">
@@ -20,7 +22,7 @@ const ProjectCard = ({project}) => {
                                 <div key={index} className="px-1 py-1 bg-tag-color rounded-[7px]"><p className="font-light">{tagName}</p></div>
                             ))}
                         </div>
-                        <p className="my-auto font-medium text-sm underline">READ MORE</p>
+                        <Link className="my-auto font-medium text-sm underline" to={project.url}>READ MORE</Link>
                     </div>
                 </div>
             </div>
