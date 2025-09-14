@@ -1,5 +1,6 @@
 import portrait from "../../assets/images/portrait.JPEG"
 import { SOCIALS } from "@/data/data.jsx"
+import ThemeToggle from "@/components/layout/theme-toggle.jsx";
 
 const Hero = () => {
     return (
@@ -19,6 +20,7 @@ const Hero = () => {
                             <a key={index} href={social.url}><img className="size-10 hover:-translate-y-1 transition-transform" src={social.icon}/></a>
                         ))}
                     </div>
+                    <ThemeToggle />
                 </div>
                 
             </div>

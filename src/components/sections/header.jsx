@@ -7,7 +7,7 @@ const Header = () => {
     const [open, setOpen] = useState(false);
 
     return (
-        <header className="sticky top-0 w-full bg-white shadow-md ">
+        <header className="sticky top-0 w-full bg-white dark:bg-gray-800 shadow-md z-50 transition-colors duration-300">
             <div className="max-w-7xl mx-auto">
                 <div className="flex justify-between py-6 px-4 gap-2">
                     <h1 className="font-semibold text-3xl lg:text-5xl">

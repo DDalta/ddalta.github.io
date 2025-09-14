@@ -3,8 +3,8 @@ import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import App from './App.jsx'
-import BlogPage from '@/components/pages/blogpage.jsx'
-import ErrorPage from "@/components/pages/errorpage.jsx"
+import BlogPage from '@/components/pages/blog-page.jsx'
+import ErrorPage from "@/components/pages/error-page.jsx"
 
 import "./index.css"
 

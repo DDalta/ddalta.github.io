@@ -10,6 +10,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
 
     <title>Daniel Peralta</title>
+
+    <script>
+      (function() {
+        const theme = localStorage.getItem("theme")
+        const root = document.documentElement
+        if (theme) {
+          root.classList.add(theme);
+          return;
+        }
+        if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+          root.classList.add("dark");
+          return;
+        }
+        root.classList.add("light");
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

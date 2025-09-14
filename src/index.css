@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lexend:wght@100..900&display=swap");
 @import "tailwindcss";
 
-@theme {
-    --font-comfortaa: "Comfortaa", sans-serif;
-    --font-lexend: "Lexend", sans-serif;
+@custom-variant dark (&:where(.dark, .dark *));
 
-    --color-default-text-color: #242E31;
-    --color-secondary-section-color: #fafafa;
-    --color-card-color: #E3EEF6;
-    --color-tag-color: #AAFAED;
+@theme {
+  --font-comfortaa: "Comfortaa", sans-serif;
+  --font-lexend: "Lexend", sans-serif;
+
+  --color-default-text-color: #242E31;
+  --color-secondary-section-color: #fafafa;
+  --color-card-color: #E3EEF6;
+  --color-tag-color: #AAFAED;
 }
 
 html,

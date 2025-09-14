@@ -4,8 +4,8 @@ import { SOCIALS } from "@/data/data.jsx"
 
 const Contact = () => {
     return (
-        <ScrollReveal>
-            <section id="contact" className="w-full py-18 bg-secondary-section-color scroll-mt-10">
+        <section id="contact" className="w-full py-18 bg-secondary-section-color scroll-mt-10">
+            <ScrollReveal>
                 <div className="mx-auto max-w-6xl flex flex-col gap-8 px-5">
                     <p className="text-center font-semibold text-3xl">GET IN TOUCH</p>
                     <div className="flex gap-5 justify-center">
@@ -26,8 +26,9 @@ const Contact = () => {
                         </form>
                     </div>
                 </div>
-            </section>
-        </ScrollReveal>
+            </ScrollReveal>
+        </section>
+        
     )
 };
 

@@ -4,8 +4,9 @@ import portrait from "../../assets/images/portrait.JPEG"
 
 const About = () => {
     return (
-        <ScrollReveal>
-            <section id="about" className="w-full py-18 bg-secondary-section-color scroll-mt-10">
+        
+        <section id="about" className="w-full py-18 bg-secondary-section-color scroll-mt-10">
+            <ScrollReveal>
                 <div className="mx-auto max-w-6xl flex flex-col gap-8 px-5">
                     <p className="text-center font-semibold text-3xl">ABOUT ME</p>
                     <div className="flex flex-col md:flex-row justify-between gap-12">
@@ -27,8 +28,9 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-            </section>
-        </ScrollReveal>
+            </ScrollReveal>
+        </section>
+        
     )
 };
 
