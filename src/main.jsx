@@ -6,8 +6,6 @@ import App from './App.jsx'
 import BlogPage from '@/components/pages/blogpage.jsx'
 import ErrorPage from "@/components/pages/errorpage.jsx"
 
-import getProjectById from '@/utils/projectApi.jsx'
-
 import "./index.css"
 
 const router = createBrowserRouter([
