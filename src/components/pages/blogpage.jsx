@@ -2,17 +2,16 @@ import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import ReactMarkdown from 'react-markdown';
 
-// TODO abort controller
+// TODO: abort controller
 
 const BlogPage = () => {
     const params = useParams();
 
     const [content, setContent] = useState("");
-    const [images, setImages] = useState([]);
     const [error, setError] = useState(false);
 
     useEffect(() => {
-        import(`@/data/blogs/projects/${params.blogId}/${params.blogId}.md`)
+        import(`@/data/blogs/projects/${params.blogId}.md`)
         .then(res => {
             fetch(res.default)
                 .then(res => res.text())
@@ -22,9 +21,6 @@ const BlogPage = () => {
             console.log(err);
             setError(true);
         });
-
-        const images = import.meta.glob(`@/data/blogs/projects/${params.blogId}/*.{png, jpg, jpeg}`, { eager: true, as: 'url' });
-        console.log(images);
 
     }, [params.blogId])
 

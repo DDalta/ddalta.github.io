@@ -16,13 +16,15 @@ const ProjectCard = ({project}) => {
                         </p>
                     </div>
                     {/* TAGS */}
-                    <div className="flex justify-between content-center gap-2">
-                        <div className="flex gap-3 flex-wrap lg:flex-nowrap">
+                    <div className="flex justify-between content-center gap-1">
+                        <div className="w-6/10 lg:w-4/5 flex gap-3 flex-wrap lg:flex-nowrap">
                             {project.tags.map((tagName, index) => (
-                                <div key={index} className="px-1 py-1 bg-tag-color rounded-[7px]"><p className="font-light">{tagName}</p></div>
+                                <div key={index} className="px-2 py-1 bg-tag-color rounded-[7px] text-center"><p className="font-light">{tagName}</p></div>
                             ))}
                         </div>
-                        <Link className="my-auto font-medium text-sm underline" to={project.url}>READ MORE</Link>
+                        <div className="w-auto mt-auto lg:my-auto text-center">
+                            <Link className="font-medium text-sm" to={project.url}><span className="underline">READ MORE </span>→</Link>
+                        </div>
                     </div>
                 </div>
             </div>

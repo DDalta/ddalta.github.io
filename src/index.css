@@ -19,3 +19,14 @@ body {
   color: #242E31;
   scroll-behavior: smooth;
 }
+
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.scroll-reveal.slide-in  {
+  opacity: 1;
+  transform: translateY(0);
+}
