@@ -11,6 +11,10 @@
   --color-secondary-section-color: #fafafa;
   --color-card-color: #E3EEF6;
   --color-tag-color: #AAFAED;
+  --shadow-primary-light: 6px 6px 0px 5px oklch(92.9% 0.013 255.508);
+  --shadow-secondary-light: 6px 6px 0px 5px oklch(86.9% 0.022 252.894);
+  --shadow-primary-dark: 6px 6px 0px 5px rgb(55, 65, 81);
+  --shadow-secondary-dark: 6px 6px 0px 5px oklch(12.9% 0.042 264.695);
 }
 
 html,
@@ -18,7 +22,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Lexend", sans-serif;
-  color: #242E31;
   scroll-behavior: smooth;
 }
 

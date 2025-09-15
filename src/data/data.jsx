@@ -1,9 +1,11 @@
-import insta_icon from "@/assets/icons/instagram.svg"
-import github_icon from "@/assets/icons/github.svg"
-import linkedin_icon from "@/assets/icons/linkedin.svg"
+import InstaIcon from "@/assets/icons/instagram.svg?react";
+import GithubIcon from "@/assets/icons/github.svg?react";
+import LinkedinIcon from "@/assets/icons/linkedin.svg?react";
 
-import NoTapsThumbnail from "@/assets/images/projects/notaps/thumbnail.png"
-import BTAThumbnail from "@/assets/images/projects/bta/thumbnail.png"
+import NoTapsThumbnail from "@/assets/images/projects/notaps/thumbnail.png";
+import BTAThumbnail from "@/assets/images/projects/bta/thumbnail.png";
+import PCAThumbnail from "@/assets/images/projects/python-chat-app/thumbnail.png";
+import SonarThumbnail from "@/assets/images/projects/sonar-sensor/thumbnail.png";
 
 export const NAV = [
     {
@@ -26,27 +28,27 @@ export const NAV = [
         "url": "",
         "background": "#88b5fc"
     },
-]
+];
 
 export const SOCIALS = [
     {
-        icon: insta_icon,
+        icon: InstaIcon,
         url: "https://www.instagram.com/ddalta"
     },
     {
-        icon: github_icon,
+        icon: GithubIcon,
         url: "https://github.com/DDalta"
     },
     {
-        icon: linkedin_icon,
+        icon: LinkedinIcon,
         url: "https://www.linkedin.com/in/daniel-a-peralta/"
     }
-]
+];
 
 export const PROJECTS = [
     {
         name: "No-Taps Parking App",
-        description: "A parking app for UCSC.",
+        description: "A web application designed to alleviate parking frustrations at UCSC by providing real-time parking availability through a user-based reporting system. Features include color-coded map of campus parking lots, allowing users to view lot information, submit availability ratings, and filter lots based on specific criteria.",
         image: NoTapsThumbnail,
         tags: [
             "Node.js",
@@ -61,7 +63,7 @@ export const PROJECTS = [
     },
     {
         name: "Behaviour Tree Agent",
-        description: "Traverses through a procedural level containing treasures and enemies.",
+        description: "Utilizing the Unity engine to create an AI agent controlled by a behavior tree. The agent is designed to navigate procedurally generated levels, collect valuable items within its line of sight, and retreat to find a new path upon detecting an enemy.",
         image: BTAThumbnail,
         tags: [
             "Unity",
@@ -71,19 +73,18 @@ export const PROJECTS = [
         url: "blog/projects/bta"
     },
     {
-        name: "Simple Network Chat App",
-        description: "A simple TCP-based chat app.",
-        image: NoTapsThumbnail,
+        name: "Network Chat App",
+        description: "A simple, TCP-based chat program that allows two clients to have a bidirectional conversation. A central server acts as a matchmaker, connecting two clients after they register their contact information and signal their readiness. Once connected, one client initiates the chat, and they take turns writing and reading messages until the session is terminated.",
+        image: PCAThumbnail,
         tags: [
             "Python"
-
         ],
         url: "blog/projects/python-chat-app"
     },
     {
         name: "Arduino Sonar Sensor",
-        description: "A simple sonar sensor made with a microcontroller.",
-        image: BTAThumbnail,
+        description: "An Arduino-based sonar device that uses a servo motor to sweep an ultrasonic sensor across a 180-degree arc, detecting objects up to 40cm away. Along with a custom interface built in Python with Pygame and PySerial reads the data from the Arduino to provide a real-time visual representation of detected objects on a radar-like display.",
+        image: SonarThumbnail,
         tags: [
             "Arduino",
             "Python",
@@ -91,15 +92,47 @@ export const PROJECTS = [
         ],
         url: "blog/projects/sonar-sensor"
     },
-]
+];
 
 export const SKILLS = [
     {
-        name: "Python",
+        label: "JavaScript",
         icon: ""
     },
     {
-        name: "React",
+        label: "React",
+        icon: ""
+    },
+    {
+        label: "HTML",
+        icon: ""
+    },
+    {
+        label: "CSS",
+        icon: ""
+    },
+    {
+        label: "TailwindCSS",
+        icon: ""
+    },
+    {
+        label: "Python",
+        icon: ""
+    },
+    {
+        label: "Flask",
+        icon: ""
+    },
+    {
+        label: "Godot",
+        icon: ""
+    },
+    {
+        label: "Git",
+        icon: ""
+    },
+    {
+        label: "Vite",
         icon: ""
     }
-]
+];

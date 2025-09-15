@@ -2,7 +2,7 @@ import ScrollReveal from "@/components/layout/scrollreveal.jsx";
 
 const Skills = () => {
     return (
-        <section id="skills" className="w-full py-18">
+        <section id="skills" className="w-full py-18 bg-white dark:bg-gray-950 transition-colors duration-300">
             <ScrollReveal>
                 <div className="mx-auto max-w-6xl flex flex-col gap-8 px-5">
                     <h2 className="text-center font-semibold text-3xl">TOOLS & SKILLS</h2>
