@@ -15,6 +15,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src")
     }
   },
-  assetsInclude: ['**/*.md'],
-  base: "/ddalta.github.io",
+  assetsInclude: ['**/*.md']
 })
