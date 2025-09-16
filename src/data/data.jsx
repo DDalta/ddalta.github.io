@@ -2,6 +2,17 @@ import InstaIcon from "@/assets/icons/instagram.svg?react";
 import GithubIcon from "@/assets/icons/github.svg?react";
 import LinkedinIcon from "@/assets/icons/linkedin.svg?react";
 
+import JavascriptIcon from "@/assets/icons/javascript.svg?react";
+import ReactIcon from "@/assets/icons/react.svg?react";
+import HtmlIcon from "@/assets/icons/html.svg?react";
+import CssIcon from "@/assets/icons/css.svg?react";
+import TailwindIcon from "@/assets/icons/tailwind.svg?react";
+import PythonIcon from "@/assets/icons/python.svg?react";
+import FlaskIcon from "@/assets/icons/flask.svg?react";
+import GodotIcon from "@/assets/icons/godot.svg?react";
+import GitIcon from "@/assets/icons/git.svg?react";
+import NodeJSIcon from "@/assets/icons/nodejs.svg?react";
+
 import NoTapsThumbnail from "@/assets/images/projects/notaps/thumbnail.png";
 import BTAThumbnail from "@/assets/images/projects/bta/thumbnail.png";
 import PCAThumbnail from "@/assets/images/projects/python-chat-app/thumbnail.png";
@@ -57,8 +68,8 @@ export const PROJECTS = [
             "CSS",
             "MySQL",
             "Caddy",
-            "Asuna",
-            "Git"
+            "Git",
+            "Asana",
         ],
         url: "blog/projects/notaps"
     },
@@ -70,7 +81,6 @@ export const PROJECTS = [
             "Python",
             "Godot",
             "Research",
-            "In Progress",
         ],
         url: "blog/projects/scene-gen-godot"
     },
@@ -111,42 +121,42 @@ export const PROJECTS = [
 export const SKILLS = [
     {
         label: "JavaScript",
-        icon: ""
+        icon: JavascriptIcon
     },
     {
         label: "React",
-        icon: ""
+        icon: ReactIcon
     },
     {
         label: "HTML",
-        icon: ""
+        icon: HtmlIcon
     },
     {
         label: "CSS",
-        icon: ""
+        icon: CssIcon
     },
     {
         label: "TailwindCSS",
-        icon: ""
+        icon: TailwindIcon
     },
     {
         label: "Python",
-        icon: ""
+        icon: PythonIcon
     },
     {
         label: "Flask",
-        icon: ""
+        icon: FlaskIcon
     },
     {
         label: "Godot",
-        icon: ""
+        icon: GodotIcon
     },
     {
         label: "Git",
-        icon: ""
+        icon: GitIcon
     },
     {
         label: "Node.JS",
-        icon: ""
+        icon: NodeJSIcon
     }
 ];

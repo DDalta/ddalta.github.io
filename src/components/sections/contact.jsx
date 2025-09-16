@@ -21,13 +21,13 @@ const Contact = () => {
                     </div>
                     {/* FORM */}
                     <div className="px-5 mx-auto md:mx-[33%]">
-                        <form>
+                        <form action="https://formspree.io/f/xblddwev" method="POST">
                             <div className="flex flex-col gap-5 justify-center">
-                                <input className="block rounded-md outline-2 outline-gray-500 placeholder:text-default-text-color/40 dark:placeholder:text-gray-100/40 focus:outline-black/20 dark:focus:outline-gray-500 focus:-outline-offset-2 py-[5px] pl-[5px]" placeholder="Name"/>
-                                <input className="block rounded-md outline-2 outline-gray-500 placeholder:text-default-text-color/40 dark:placeholder:text-gray-100/40 focus:outline-black/20 dark:focus:outline-gray-500 focus:-outline-offset-2 py-[5px] pl-[5px]" placeholder="Subject"/>
-                                <input className="block rounded-md outline-2 outline-gray-500 placeholder:text-default-text-color/40 dark:placeholder:text-gray-100/40 focus:outline-black/20 dark:focus:outline-gray-500 focus:-outline-offset-2 py-[5px] pl-[5px]" placeholder="Email"/>
-                                <textarea className="block w-full h-[150px] outline-2 outline-gray-500 rounded-md placeholder:text-default-text-color/40 dark:placeholder:text-gray-100/40 focus:outline-black/20 dark:focus:outline-gray-500 focus:-outline-offset-2 pl-[5px]" placeholder="Message"/>
-                                <button className="font-semibold rounded-md outline-2 outline-gray-500 hover:bg-slate-300 dark:hover:bg-gray-900 py-[5px]">SUBMIT</button>
+                                <input className="block rounded-md outline-2 outline-gray-500 placeholder:text-default-text-color/40 dark:placeholder:text-gray-100/40 focus:outline-black/20 dark:focus:outline-gray-500 focus:-outline-offset-2 py-[5px] pl-[5px]" name="name" placeholder="Name" required/>
+                                <input className="block rounded-md outline-2 outline-gray-500 placeholder:text-default-text-color/40 dark:placeholder:text-gray-100/40 focus:outline-black/20 dark:focus:outline-gray-500 focus:-outline-offset-2 py-[5px] pl-[5px]" name="subject" placeholder="Subject" required/>
+                                <input className="block rounded-md outline-2 outline-gray-500 placeholder:text-default-text-color/40 dark:placeholder:text-gray-100/40 focus:outline-black/20 dark:focus:outline-gray-500 focus:-outline-offset-2 py-[5px] pl-[5px]" name="email" placeholder="Email" required/>
+                                <textarea className="block w-full h-[150px] outline-2 outline-gray-500 rounded-md placeholder:text-default-text-color/40 dark:placeholder:text-gray-100/40 focus:outline-black/20 dark:focus:outline-gray-500 focus:-outline-offset-2 pl-[5px]" name="message" placeholder="Message" required/>
+                                <button type="submit" className="font-semibold rounded-md outline-2 outline-gray-500 hover:bg-slate-300 dark:hover:bg-gray-900 py-[5px] transition-colors duration-300">SUBMIT</button>
                             </div>
                         </form>
                     </div>

@@ -41,15 +41,18 @@ const BlogPage = () => {
     return (
         <section className="pb-10 px-4 bg-white dark:bg-gray-900 transition-colors duration-300">
             <div className="mx-auto max-w-5xl flex flex-col gap-3">
-                <div className="flex gap-5">
-                    <Link to="/" className="w-1/10 px-2 py-2 text-xl rounded-[16px] bg-gray-200 dark:bg-gray-900 transition-colors duration-300">HOME</Link>
-                    <ThemeToggle className="w-12 px-2 py-2 text-xl rounded-[16px] bg-gray-200 dark:bg-gray-900 transition-colors duration-300" theme={theme} toggleTheme={toggleTheme} />
+                <div className="flex gap-5 text-center">
+                    <Link to="/" className="w-28 px-2 py-2 text-xl bg-white hover:bg-gray-200 dark:hover:bg-gray-950 dark:bg-gray-900
+                                                rounded-xl transition-colors duration-300">← HOME</Link>
+                    <ThemeToggle className="flex items-center justify-center w-11 h-auto bg-white hover:bg-gray-200 dark:hover:bg-gray-950 dark:bg-gray-900
+                                                rounded-xl transition-colors duration-300" theme={theme} toggleTheme={toggleTheme} />
                 </div>
                 <ReactMarkdown
                     rehypePlugins={[rehypeRaw]}
                     components={{
                         h1: ({node, ...props}) => <h1 className="font-semibold text-3xl" {...props} />,
-                        h2: ({node, ...props}) => <h1 className="font-semibold text-2xl" {...props} />,
+                        h2: ({node, ...props}) => <h2 className="font-semibold text-2xl" {...props} />,
+                        h3: ({node, ...props}) => <h3 className="font-semibold text-xl" {...props} />,
                         img: ({node, ...props}) => <img loading="lazy" className="w-full md:w-2/3" {...props} />,
                         ul: ({node, ...props}) => <ul className="list-disc ml-6" {...props}/>,
                         a: ({node, ...props}) => <a className="font-semibold" {...props}/>,
