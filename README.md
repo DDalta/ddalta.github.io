@@ -27,7 +27,7 @@ You'll need to have [Node.js](https://nodejs.org/en/) (which includes npm) insta
 
 1. **Clone the repository:**
   ```sh
-  git clone [https://github.com/DDalta/ddalta.github.io.git](https://github.com/DDalta/ddalta.github.io.git)
+  git clone https://github.com/DDalta/ddalta.github.io.git
   ```
 2. **Navigate to the project directory and install NPM packages:**
   ```sh
