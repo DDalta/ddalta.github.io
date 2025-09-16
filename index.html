@@ -1,185 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <title>Daniel Peralta</title>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./default.css">
+    <title>Daniel Peralta</title>
+
+    <script>
+      (function() {
+        const theme = localStorage.getItem("theme")
+        const root = document.documentElement
+        if (theme) {
+          root.classList.add(theme);
+          return;
+        }
+        if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+          root.classList.add("dark");
+          return;
+        }
+        root.classList.add("light");
+      })();
+    </script>
   </head>
-  <body>
-
-    <!-- NAV SECTION -->
-    <section class="section-1">
-      <div class="name-wrapper">
-        <h1 id="name-text">DANIEL PERALTA</h1>
-      </div>
-
-      <div class="navigation-wrapper">
-        <ul id="navigation">
-          <li><a href="#projects" style="font-size: 20px;">PROJECTS</a></li>
-          <li><div class="nav-spacer"></div></li>
-          <li><a href="resume.pdf" style="font-size: 20px;">RESUME</a></li>
-          <li><div class="nav-spacer"></div></li>
-          <li><a href="#contact" style="font-size: 20px;">CONTACT</a></li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- ABOUT SECTION -->
-    <section class="section-2">
-      <div class="section-container">
-        <div id="about-wrapper">
-          <div>
-            <h2>ABOUT ME</h2>
-            <p id="about-text">California-based computer science student, recently graduated from 
-              <a href="https://www.ucsc.edu/" target="_blank" rel="noopener noreferrer" style="color: darkcyan;">UCSC</a>, 
-              and currently pursuing further studies at 
-              <a href="https://www.csulb.edu/" target="_blank" rel="noopener noreferrer" style="color: darkcyan;">CSULB</a>. 
-              Passionate about coding projects and learning in the field of computer science.
-            </p>
-          </div>
-          <div style="padding-top: 10px;">
-            <img id="profile_picture" src="images/IMG_3037.JPEG">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SKILLS SECTION -->
-    <section class="section-1">
-      <div class="section-container">
-        <div id="skills-wrapper">
-          <div id="skills-desc-wrapper">
-            <h2>SKILLS</h2>
-            <p>I have experience in python, full-stack web development, and game development.</p>
-
-            <div id="skills-list-wrapper">
-              <ul>
-                <li>Python</li>
-                <li>HTML/CSS</li>
-                <li>Javascript</li>
-              </ul>
-              <ul>
-                <li>Node.js</li>
-                <li>Git</li>
-                <li>Godot</li>
-              </ul>
-            </div>
-
-          </div>
-
-          <div id="skill-logos-wrapper">
-            <img src="images/godotpng.png" class="skills-grid-image" id="godotimg" draggable="false">
-            <img src="images/python.png" class="skills-grid-image" id="pythonimg" draggable="false">
-            <img src="images/html-5.png" class="skills-grid-image" id="htmlimg" draggable="false">
-            <img src="images/css-3.png" class="skills-grid-image" id="cssimg" draggable="false">
-            <img src="images/js.png" class="skills-grid-image" id="jsimg" draggable="false">
-            <img src="images/git.svg" class="skills-grid-image" id="cimg" draggable="false">
-            <img src="images/node-js.png" class="skills-grid-image" id="njsimg" draggable="false">
-          </div>
-          
-        </div>
-      </div>
-    </section>
-
-    <!-- PROJECT SECTION -->
-    <section class="section-2" id="projects">
-      <div class="section-container">
-        <div id="projects-wrapper">
-          <h2>PROJECTS</h2>
-
-          <div class="single-project-container">
-            <div class="single-project-img-container">
-              <img src="images/no-taps/notaps_thumbnail.png" class="single-project-img">
-            </div>
-            <div class="single-project-info-container">
-              <h3>No-Taps Parking App</h3>
-              <p>A parking app for UCSC.</p>
-              <a href="notaps.html">Read More</a>
-            </div>
-          </div>
-
-          <div class="single-project-container">
-            <div class="single-project-img-container">
-              <img src="images/btree/bt_thumbnail.png" class="single-project-img">
-            </div>
-            <div class="single-project-info-container">
-              <h3>Behaviour Tree Agent</h3>
-              <p>Traverses through a procedural level containing treasures and enemies.</p>
-              <a href="btree.html">Read More</a>
-            </div>
-          </div>
-
-          <div class="single-project-container">
-            <div class="single-project-img-container">
-              <img src="images/chat-app/chat-app-thumbnail.png" class="single-project-img">
-            </div>
-            <div class="single-project-info-container">
-              <h3>Simple Network Chat App</h3>
-              <p>A simple TCP-based chat app.</p>
-              <a href="chatapp.html">Read More</a>
-            </div>
-          </div>
-
-          <div class="single-project-container">
-            <div class="single-project-img-container">
-              <img src="images/sonar/sonar-thumbnail.png" class="single-project-img">
-            </div>
-            <div class="single-project-info-container">
-              <h3>Arduino Sonar Sensor</h3>
-              <p>A simple sonar sensor made with a microcontroller.</p>
-              <a href="sonar.html">Read More</a>
-            </div>
-          </div>
-
-          <div class="single-project-container">
-            <div class="single-project-img-container">
-              <img src="images/godot-sim/thumbnail.png" class="single-project-img">
-            </div>
-            <div class="single-project-info-container">
-              <h3>Flexible Scenario Generation</h3>
-              <p>Currently working with Dr. Xin Qin on researching the use of simulated environments in Godot.</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT SECTION -->
-    <section id="contact" style="margin-bottom: 80px;">
-      <div class="section-container">
-        <h2 style="text-align: center;">CONTACT</h2>
-          
-          <form id="contact-form" action="https://formspree.io/f/xblddwev" method="POST">
-            <input type="text" class="input-field" name="name" placeholder="Name" required>
-            <input type="text" class="input-field" name="subject" placeholder="Subject" required>
-            <input type="text" class="input-field" name="email" placeholder="Email" required>
-            <textarea name="message" id="" class="input-field" placeholder="Message" required></textarea>
-            <input type="submit" id="submit-btn" value="Send">
-          </form>
-
-          <p style="justify-self: center;">OTHER SOCIALS</p>
-          <div id="socials-container">
-            <div class="social-link">
-              <a href="https://github.com/DDalta" target="_blank" rel="noopener noreferrer"><img class="social-img" src="images/github.png"></a>
-            </div>
-            <div class="social-link">
-              <a href="https://www.instagram.com/ddalta" target="_blank" rel="noopener noreferrer"><img class="social-img" src="images/instagram.png"></a>
-            </div>
-            <div class="social-link">
-              <a href="https://www.linkedin.com/in/daniel-a-peralta/" target="_blank" rel="noopener noreferrer"><img class="social-img" src="images/linkedin.png"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+  <body class="text-(--color-default-text-color) dark:text-gray-100 transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
