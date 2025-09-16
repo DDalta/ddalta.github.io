@@ -6,6 +6,7 @@ import NoTapsThumbnail from "@/assets/images/projects/notaps/thumbnail.png";
 import BTAThumbnail from "@/assets/images/projects/bta/thumbnail.png";
 import PCAThumbnail from "@/assets/images/projects/python-chat-app/thumbnail.png";
 import SonarThumbnail from "@/assets/images/projects/sonar-sensor/thumbnail.png";
+import SceneGenThumbnail from "@/assets/images/projects/scene-gen-godot/thumbnail.png";
 
 export const NAV = [
     {
@@ -62,6 +63,18 @@ export const PROJECTS = [
         url: "blog/projects/notaps"
     },
     {
+        name: "Researching Scene Reconstruction in Godot",
+        description: "A research paper I'm working on in collaberation with Dr. Xin @ CSULB about facilitating CPS validation by introducing a pipeline that reconstructs scenes inside the Godot engine from an image.",
+        image: SceneGenThumbnail,
+        tags: [
+            "Python",
+            "Godot",
+            "Research",
+            "In Progress",
+        ],
+        url: "blog/projects/scene-gen-godot"
+    },
+    {
         name: "Behaviour Tree Agent",
         description: "Utilizing the Unity engine to create an AI agent controlled by a behavior tree. The agent is designed to navigate procedurally generated levels, collect valuable items within its line of sight, and retreat to find a new path upon detecting an enemy.",
         image: BTAThumbnail,
@@ -77,7 +90,8 @@ export const PROJECTS = [
         description: "A simple, TCP-based chat program that allows two clients to have a bidirectional conversation. A central server acts as a matchmaker, connecting two clients after they register their contact information and signal their readiness. Once connected, one client initiates the chat, and they take turns writing and reading messages until the session is terminated.",
         image: PCAThumbnail,
         tags: [
-            "Python"
+            "Python",
+            "Sockets"
         ],
         url: "blog/projects/python-chat-app"
     },
@@ -132,7 +146,7 @@ export const SKILLS = [
         icon: ""
     },
     {
-        label: "Vite",
+        label: "Node.JS",
         icon: ""
     }
 ];

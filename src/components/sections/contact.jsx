@@ -24,9 +24,9 @@ const Contact = () => {
                         <form>
                             <div className="flex flex-col gap-5 justify-center">
                                 <input className="block rounded-md outline-2 outline-gray-500 placeholder:text-default-text-color/40 dark:placeholder:text-gray-100/40 focus:outline-black/20 dark:focus:outline-gray-500 focus:-outline-offset-2 py-[5px] pl-[5px]" placeholder="Name"/>
-                                <input className="block rounded-md outline-2 outline-gray-500 placeholder:text-default-text-color/40 dark:placeholder:text-gray-100/40 focus:outline-black/20 dark:focus:outline-gray-500 py-[5px] pl-[5px]" placeholder="Subject"/>
-                                <input className="block rounded-md outline-2 outline-gray-500 placeholder:text-default-text-color/40 dark:placeholder:text-gray-100/40 focus:outline-black/20 dark:focus:outline-gray-500 py-[5px] pl-[5px]" placeholder="Email"/>
-                                <textarea className="block w-full h-[150px] outline-2 outline-gray-500 rounded-md placeholder:text-default-text-color/40 dark:placeholder:text-gray-100/40 focus:outline-black/20 dark:focus:outline-gray-500 pl-[5px]" placeholder="Message"/>
+                                <input className="block rounded-md outline-2 outline-gray-500 placeholder:text-default-text-color/40 dark:placeholder:text-gray-100/40 focus:outline-black/20 dark:focus:outline-gray-500 focus:-outline-offset-2 py-[5px] pl-[5px]" placeholder="Subject"/>
+                                <input className="block rounded-md outline-2 outline-gray-500 placeholder:text-default-text-color/40 dark:placeholder:text-gray-100/40 focus:outline-black/20 dark:focus:outline-gray-500 focus:-outline-offset-2 py-[5px] pl-[5px]" placeholder="Email"/>
+                                <textarea className="block w-full h-[150px] outline-2 outline-gray-500 rounded-md placeholder:text-default-text-color/40 dark:placeholder:text-gray-100/40 focus:outline-black/20 dark:focus:outline-gray-500 focus:-outline-offset-2 pl-[5px]" placeholder="Message"/>
                                 <button className="font-semibold rounded-md outline-2 outline-gray-500 hover:bg-slate-300 dark:hover:bg-gray-900 py-[5px]">SUBMIT</button>
                             </div>
                         </form>

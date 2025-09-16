@@ -12,12 +12,11 @@ const About = () => {
                     <div className="flex flex-col md:flex-row justify-between gap-12">
                         <img className="w-[315px] h-[430px] mx-auto md:mx-0 object-cover rounded-[24px] shadow-secondary-light dark:shadow-secondary-dark transition-shadow duration-300" src={portrait} alt="My profile"/>
                         <div className="flex flex-col gap-5 max-w-xl mx-auto md:mx-0">
-                            <p> 
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non  auctor dui. Donec eros nibh, suscipit at sapien vitae, faucibus faucibus leo.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed  pretium metus. Mauris vitae nisi libero. Integer ut massa vitae nunc  tristique porttitor.
-                                Aenean augue urna, fermentum eu ligula non, gravida tempor magna. Curabitur et ex tellus. Aenean bibendum nisl eu ante  pulvinar porta nec in tortor.
-                                Vivamus mi nisl, vestibulum in bibendum  vitae, sagittis quis nunc. Etiam eget tortor consequat, auctor quam id,  porta lacus. Curabitur mollis velit ac
-                                metus interdum euismod. Fusce  purus est, convallis in interdum eu, euismod gravida sapien.
+                            <p className="text-base/7"> 
+                                Passionate about software development and love brining projects to life from start to finish. My interest in tech started when I was young, as I loved tinkering with computers and figuring out
+                                how they worked. I followed that passion to get my Bachelors in Computer Science at UC Santa Cruz and then decided to work on my Master's at CSU Long Beach. My recent work involves building full
+                                stack projects, and I'm also currently assisting one of my professors with their research. When I'm not deep in a coding project, I like to switch things up with photography and video editing.
+                                I also have a huge passion for game development and have built project using both Unity and Godot.
                             </p>
                             <div className="w-full lg:w-3/4 flex flex-col bg-gray-100 dark:bg-gray-700 px-4 py-4 rounded-xl transition-colors shadow-secondary-light dark:shadow-secondary-dark transition-shadow duration-300">
                                 <h3 className="text-xl font-medium">EDUCATIONS</h3>
