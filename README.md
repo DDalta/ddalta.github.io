@@ -21,13 +21,19 @@ To get a local copy up and running, follow these simple steps.
 ###Installation
 
 1. **Clone the repository:**
- 	```sh git clone https://github.com/DDalta/ddalta.github.io.git```
-2. Navigate to the project directory and install NPM packages:
+ 	```sh
+     git clone https://github.com/DDalta/ddalta.github.io.git
+  ```
+3. Navigate to the project directory and install NPM packages:
     ```sh
     npm install
     ```
 ###Available Scripts
 4. Run the app in development mode
-   `npm run dev`
+   ```sh
+      npm run dev
+   ```
 5. Builds the app
-   `npm run build`
+   ```sh
+      npm run build
+   ```
