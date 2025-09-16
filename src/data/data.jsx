@@ -18,6 +18,7 @@ import BTAThumbnail from "@/assets/images/projects/bta/thumbnail.png";
 import PCAThumbnail from "@/assets/images/projects/python-chat-app/thumbnail.png";
 import SonarThumbnail from "@/assets/images/projects/sonar-sensor/thumbnail.png";
 import SceneGenThumbnail from "@/assets/images/projects/scene-gen-godot/thumbnail.png";
+import CarDetectThumbnail from "@/assets/images/projects/car-detect/thumbnail.png";
 
 export const NAV = [
     {
@@ -37,7 +38,7 @@ export const NAV = [
     },
     {
         "label": "RESUME",
-        "url": "",
+        "url": "/resume.pdf",
         "background": "#88b5fc"
     },
 ];
@@ -79,10 +80,26 @@ export const PROJECTS = [
         image: SceneGenThumbnail,
         tags: [
             "Python",
+            "OpenCV",
+            "MatPlotLib",
             "Godot",
             "Research",
         ],
         url: "blog/projects/scene-gen-godot"
+    },
+    {
+        name: "Multi-Class Image Segmentation on Cars",
+        description: "Trained a model to accurately perform semantic segmentation of vehicle parts with Tensorflow. Utilized U-Net architecture, dataset augmentations, class weight balancing, and one-hot encoding.",
+        image: CarDetectThumbnail,
+        tags: [
+            "Python",
+            "Tensorflow",
+            "NumPy",
+            "OpenCV",
+            "MatPlotLib",
+            "Google Colab",
+        ],
+        url: "blog/projects/car-detect"
     },
     {
         name: "Behaviour Tree Agent",

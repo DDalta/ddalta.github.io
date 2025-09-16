@@ -33,7 +33,7 @@ To find specific parking lots, users can provide criterias in a search. These cr
 
 Being able to know if and where there is parking ahead of time can make it easier to plan out the drive on campus. No-Taps can conveniently proved the information needed for those who commute or visit UCSC. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nnEeCHnOwJY?si=2Tbl_3aEiRxIzVr-" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class="w-full sm:w-[560px] aspect-16/9" src="https://www.youtube.com/embed/nnEeCHnOwJY?si=2Tbl_3aEiRxIzVr-" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 🔨 Development 
 ---

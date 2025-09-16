@@ -56,6 +56,7 @@ const BlogPage = () => {
                         img: ({node, ...props}) => <img loading="lazy" className="w-full md:w-2/3" {...props} />,
                         ul: ({node, ...props}) => <ul className="list-disc ml-6" {...props}/>,
                         a: ({node, ...props}) => <a className="font-semibold" {...props}/>,
+                        p: ({node, ...props}) => <p className="text-base/6" {...props}/>,
                     }}
                     children={content}
                 />
