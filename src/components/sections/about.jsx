@@ -20,14 +20,42 @@ const About = () => {
                             </p>
                             <div className="w-full lg:w-3/4 flex flex-col bg-gray-100 dark:bg-gray-700 px-4 py-4 rounded-xl transition-colors shadow-secondary-light dark:shadow-secondary-dark transition-shadow duration-300">
                                 <h3 className="text-xl font-medium">EDUCATIONS</h3>
-                                <p>• University of California, Santa Cruz</p>
-                                <p>• California State University Long Beach</p>
+                                <ul>
+                                    <li>
+                                        <div className="flex justify-between">
+                                            <span>• UC Santa Cruz</span>
+                                            <span className="italic text-xs font-light ml-10">grad. 2024</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="flex justify-between">
+                                            <span>• CSU Long Beach</span>
+                                            <span className="italic text-xs font-light ml-10">exp. 2026 </span>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                             <div className="w-full lg:w-3/4 flex flex-col bg-gray-100 dark:bg-gray-700 px-4 py-4 rounded-xl transition-colors shadow-secondary-light dark:shadow-secondary-dark transition-shadow duration-300">
-                                <h3 className="text-xl font-medium">EXPERIENCES</h3>
+                                <h3 className="text-xl font-medium">WORK EXPERIENCES</h3>
                                 <ul>
-                                    <li>• Tech Crew / Event Staff @ UCSC</li>
-                                    <li>• Graduate Assistant @ CSULB</li>
+                                    <li>
+                                        <div className="flex justify-between">
+                                            <span>•  Tech Crew / Event Staff @ UCSC </span>
+                                            <span className="italic text-xs font-light ml-10">2023 - 2024</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="flex justify-between">
+                                            <span>•  Graduate Assistant @ CSULB</span>
+                                            <span className="italic text-xs font-light ml-10">2024 - CURR</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="flex justify-between">
+                                            <span>•  Teacher Assistant @ CSULB</span>
+                                            <span className="italic text-xs font-light ml-10">2025 - CURR</span>
+                                        </div>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

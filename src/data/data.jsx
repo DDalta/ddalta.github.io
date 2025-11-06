@@ -12,6 +12,7 @@ import FlaskIcon from "@/assets/icons/flask.svg?react";
 import GodotIcon from "@/assets/icons/godot.svg?react";
 import GitIcon from "@/assets/icons/git.svg?react";
 import NodeJSIcon from "@/assets/icons/nodejs.svg?react";
+import TensorflowIcon from "@/assets/icons/tensorflow.svg?react";
 
 import NoTapsThumbnail from "@/assets/images/projects/notaps/thumbnail.png";
 import BTAThumbnail from "@/assets/images/projects/bta/thumbnail.png";
@@ -60,21 +61,6 @@ export const SOCIALS = [
 
 export const PROJECTS = [
     {
-        name: "No-Taps Parking App",
-        description: "A web application designed to alleviate parking frustrations at UCSC by providing real-time parking availability through a user-based reporting system. Features include color-coded map of campus parking lots, allowing users to view lot information, submit availability ratings, and filter lots based on specific criteria.",
-        image: NoTapsThumbnail,
-        tags: [
-            "Node.js",
-            "HTML",
-            "CSS",
-            "MySQL",
-            "Caddy",
-            "Git",
-            "Asana",
-        ],
-        url: "blog/projects/notaps"
-    },
-    {
         name: "Researching Scene Reconstruction in Godot",
         description: "A research paper I'm working on in collaberation with Dr. Xin @ CSULB about facilitating CPS validation by introducing a pipeline that reconstructs scenes inside the Godot engine from an image.",
         image: SceneGenThumbnail,
@@ -100,6 +86,21 @@ export const PROJECTS = [
             "Google Colab",
         ],
         url: "blog/projects/car-detect"
+    },
+    {
+        name: "Full Stack Parking App",
+        description: "A web application designed to alleviate parking frustrations at UCSC by providing real-time parking availability through a user-based reporting system. Features include color-coded map of campus parking lots, allowing users to view lot information, submit availability ratings, and filter lots based on specific criteria.",
+        image: NoTapsThumbnail,
+        tags: [
+            "Node.js",
+            "HTML",
+            "CSS",
+            "MySQL",
+            "Caddy",
+            "Git",
+            "Asana",
+        ],
+        url: "blog/projects/notaps"
     },
     {
         name: "Behaviour Tree Agent",
@@ -153,8 +154,8 @@ export const SKILLS = [
         icon: CssIcon
     },
     {
-        label: "TailwindCSS",
-        icon: TailwindIcon
+        label: "Tensorflow",
+        icon: TensorflowIcon
     },
     {
         label: "Python",

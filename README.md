@@ -3,7 +3,7 @@
 
 ## Live Demo
 
-You can view the live deployed version here: [Portfolio Website](https://ddalta.github.io)
+You can view the live deployed site here: [Portfolio Website](https://ddalta.github.io)
 
 &nbsp;
 
