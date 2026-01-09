@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "compress": "node scripts/compress-images.js",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
@@ -14,6 +15,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.12",
+    "dotenv": "^17.2.3",
     "lucide-react": "^0.544.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
@@ -21,6 +23,7 @@
     "react-router-dom": "^7.9.1",
     "rehype-raw": "^7.0.0",
     "tailwindcss": "^4.1.12",
+    "tinify": "^1.8.2",
     "vite-plugin-svgr": "^4.5.0"
   },
   "devDependencies": {
