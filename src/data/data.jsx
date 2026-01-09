@@ -14,12 +14,12 @@ import GitIcon from "@/assets/icons/git.svg?react";
 import NodeJSIcon from "@/assets/icons/nodejs.svg?react";
 import TensorflowIcon from "@/assets/icons/tensorflow.svg?react";
 
-import NoTapsThumbnail from "@/assets/images/projects/notaps/thumbnail.png";
-import BTAThumbnail from "@/assets/images/projects/bta/thumbnail.png";
-import PCAThumbnail from "@/assets/images/projects/python-chat-app/thumbnail.png";
-import SonarThumbnail from "@/assets/images/projects/sonar-sensor/thumbnail.png";
-import SceneGenThumbnail from "@/assets/images/projects/scene-gen-godot/thumbnail.png";
-import CarDetectThumbnail from "@/assets/images/projects/car-detect/thumbnail.png";
+import NoTapsThumbnail from "@/assets/images/project-thumbnails/notaps-thumbnail.png";
+import BTAThumbnail from "@/assets/images/project-thumbnails/bta-thumbnail.png";
+import PCAThumbnail from "@/assets/images/project-thumbnails/chat-app-thumbnail.png";
+import SonarThumbnail from "@/assets/images/project-thumbnails/sonar-sensor-thumbnail.png";
+import SceneGenThumbnail from "@/assets/images/project-thumbnails/scene-gen-thumbnail.png";
+import CarDetectThumbnail from "@/assets/images/project-thumbnails/car-detect-thumbnail.png";
 
 export const NAV = [
     {

@@ -5,7 +5,7 @@ const ProjectCard = ({project}) => {
         <div className="w-full px-4 py-3 rounded-xl bg-gray-100 dark:bg-gray-800 shadow-secondary-light dark:shadow-secondary-dark transition-shadow transition-colors duration-300">
             <div className="flex flex-col md:flex-row gap-3">
                 {/* IMAGE */}
-                <img loading="lazy" className="w-full md:w-2/5 md:flex-shrink-0 aspect-[350/185] mb-auto lg:my-auto rounded-xl" src={project.image}/>
+                <img loading="lazy" className="w-full md:w-2/5 md:flex-shrink-0 aspect-[340/180] mb-auto lg:my-auto rounded-xl" src={project.image}/>
                 {/* INFO */}
                 <div className="w-full md:w-3/5 flex flex-col justify-between gap-3">
                     {/* TEXT */}
