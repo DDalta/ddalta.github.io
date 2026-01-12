@@ -20,6 +20,7 @@ import PCAThumbnail from "@/assets/images/project-thumbnails/chat-app-thumbnail.
 import SonarThumbnail from "@/assets/images/project-thumbnails/sonar-sensor-thumbnail.png";
 import SceneGenThumbnail from "@/assets/images/project-thumbnails/scene-gen-thumbnail.png";
 import CarDetectThumbnail from "@/assets/images/project-thumbnails/car-detect-thumbnail.png";
+import PCCollisionThumbnail from "@/assets/images/project-thumbnails/pointcloud-collision-thumbnail.png"
 
 export const NAV = [
     {
@@ -86,6 +87,17 @@ export const PROJECTS = [
             "Google Colab",
         ],
         url: "blog/projects/car-detect"
+    },
+    {
+        name: "Dynamic Collision Detection for Large-Scale Point Clouds in Godot",
+        description: "Built a real-time collision-detection pipeline that operates directly on large-scale point clouds inside the Godot game engine.",
+        image: PCCollisionThumbnail,
+        tags: [
+            "Simulation",
+            "Godot",
+            "GDScript"
+        ],
+        url: "blog/projects/pointcloud-collision"
     },
     {
         name: "Full Stack Parking App",
