@@ -53,5 +53,3 @@ reconstruct vehicle testing environments inside a game engine like Godot.
 
 We applied and got accepted to present our progress at the [16th ACM/IEEE International Conference on Cyber-Physical Systems](https://iccps.acm.org/2025/index.html).
 ![Not a Good Picture of Myself](/images/blogs/projects/scene-gen-godot/ICCPS.JPEG)
-
-**WILL WRITE MORE!**

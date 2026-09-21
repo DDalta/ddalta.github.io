@@ -1,7 +1,5 @@
 import ScrollReveal from "@/components/layout/scrollreveal.jsx";
 
-import portrait from "../../assets/images/portrait.JPEG"
-
 const About = () => {
     return (
         
@@ -11,10 +9,7 @@ const About = () => {
                     <p className="text-center font-semibold text-3xl">ABOUT ME</p>
                     <div className="flex flex-col gap-5 max-w-4xl mx-auto">
                         <p className="text-base/7"> 
-                            Passionate about software development and love brining projects to life from start to finish. My interest in tech started when I was young, as I loved tinkering with computers and figuring out
-                            how they worked. I followed that passion to get my Bachelors in Computer Science at UC Santa Cruz and then decided to work on my Master's at CSU Long Beach. My recent work involves building full
-                            stack projects, and I'm also currently assisting one of my professors with their research. When I'm not deep in a coding project, I like to switch things up with photography and video editing.
-                            I also have a huge passion for game development and have built project using both Unity and Godot.
+                            Passionate about software development and love bringing projects to life from start to finish. My interest in tech started when I was young, as I loved tinkering with computers and figuring out how they worked. I followed that passion to get my Bachelors in Computer Science at UC Santa Cruz and then decided to work on my Master's at CSU Long Beach. My recent work involves building full stack projects and pipelines that facilitate simulation evaluation. I also have a huge passion for game development and having built small projects in Unity and Godot. When I'm not deep in a software projects, I like to switch things up with photography and video editing.
                         </p>
                         <div className="mx-auto w-full md:w-3/5 flex flex-col bg-gray-100 dark:bg-gray-700 px-4 py-4 rounded-xl transition-colors shadow-secondary-light dark:shadow-secondary-dark transition-shadow duration-300">
                             <h3 className="text-xl font-medium">EDUCATIONS</h3>
@@ -44,14 +39,14 @@ const About = () => {
                                 </li>
                                 <li>
                                     <div className="flex justify-between">
-                                        <span>•  Graduate Assistant @ CSULB</span>
-                                        <span className="italic text-xs font-light ml-10">2024 - CURR</span>
+                                        <span>•  Instructional Student Assistant @ CSULB</span>
+                                        <span className="italic text-xs font-light ml-10">2025 - 2025</span>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="flex justify-between">
-                                        <span>•  Teacher Assistant @ CSULB</span>
-                                        <span className="italic text-xs font-light ml-10">2025 - CURR</span>
+                                        <span>•  Graduate Research Assistant @ CSULB</span>
+                                        <span className="italic text-xs font-light ml-10">2024 - 2026</span>
                                     </div>
                                 </li>
                             </ul>

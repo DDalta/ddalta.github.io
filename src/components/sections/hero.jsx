@@ -11,7 +11,7 @@ const Hero = () => {
                     <div className="flex flex-col gap-2">
                         <h1 className="font-semibold text-5xl">HELLO!</h1>
                         <p className="text-base/7">
-                            My name is Daniel. I'm a 22 year-old aspiring full stack developer located in Los Angeles, California. A recent graduate of UCSC,
+                            My name is Daniel. I'm a 23 year-old aspiring full stack developer located in Los Angeles, California. A recent graduate of UCSC,
                             I am now pursing my Master's degree at CSULB. I'm passionate about deepening my knowledge of software engineering and eager to
                             learn new technologies and build impactful projects.
                         </p>
@@ -19,7 +19,7 @@ const Hero = () => {
                     <div>
                         <span className="inline-flex items-center space-x-2">
                             <CircleCheckBig />
-                            <span><p>Available for opportunities!</p></span>
+                            <span><p>Available for work opportunities!</p></span>
                         </span>
                     </div>
                     <div className="flex gap-5 justify-center md:justify-start">

@@ -21,6 +21,7 @@ import SonarThumbnail from "@/assets/images/project-thumbnails/sonar-sensor-thum
 import SceneGenThumbnail from "@/assets/images/project-thumbnails/scene-gen-thumbnail.png";
 import CarDetectThumbnail from "@/assets/images/project-thumbnails/car-detect-thumbnail.png";
 import PCCollisionThumbnail from "@/assets/images/project-thumbnails/pointcloud-collision-thumbnail.png"
+import GSCollisionThumbnail from "@/assets/images/project-thumbnails/3dgs-thumbnail.png"
 
 export const NAV = [
     {
@@ -47,32 +48,31 @@ export const NAV = [
 
 export const SOCIALS = [
     {
-        icon: InstaIcon,
-        url: "https://www.instagram.com/ddalta"
-    },
-    {
         icon: GithubIcon,
         url: "https://github.com/DDalta"
     },
     {
         icon: LinkedinIcon,
         url: "https://www.linkedin.com/in/daniel-a-peralta/"
+    },
+    {
+        icon: InstaIcon,
+        url: "https://www.instagram.com/ddalta"
     }
 ];
 
 export const PROJECTS = [
     {
-        name: "Researching Scene Reconstruction in Godot",
-        description: "A research paper I'm working on in collaberation with Dr. Xin @ CSULB about facilitating CPS validation by introducing a pipeline that reconstructs scenes inside the Godot engine from an image.",
-        image: SceneGenThumbnail,
+        name: "Gaussian Splatting Collision Detection",
+        description: "My thesis project I've worked on under the guidance of Dr. Xin @ CSULB about a novel pipeline that facilitates robotic simulation though constructing interactive environments from 3D Gaussian Splat scans.",
+        image: GSCollisionThumbnail,
         tags: [
-            "Python",
-            "OpenCV",
-            "MatPlotLib",
-            "Godot",
-            "Research",
+            "Thesis",
+            "Simulation",
+            "3DGS",
+            "Godot"
         ],
-        url: "blog/projects/scene-gen-godot"
+        url: "blog/projects/3dgs-collision"
     },
     {
         name: "Multi-Class Image Segmentation on Cars",
@@ -89,15 +89,39 @@ export const PROJECTS = [
         url: "blog/projects/car-detect"
     },
     {
-        name: "Dynamic Collision Detection for Large-Scale Point Clouds in Godot",
-        description: "Built a real-time collision-detection pipeline that operates directly on large-scale point clouds inside the Godot game engine.",
-        image: PCCollisionThumbnail,
+        name: "Behavior Tree Agent for Games",
+        description: "Utilizing the Unity engine to create an AI agent controlled by a behavior tree. The agent is designed to navigate procedurally generated levels, collect valuable items within its line of sight, and retreat to find a new path upon detecting an enemy.",
+        image: BTAThumbnail,
         tags: [
-            "Simulation",
-            "Godot",
-            "GDScript"
+            "Unity",
+            "C#",
+            "Git"
         ],
-        url: "blog/projects/pointcloud-collision"
+        url: "blog/projects/bta"
+    },
+    // {
+    //     name: "Dynamic Collision Detection for Large-Scale Point Clouds in Godot",
+    //     description: "Built a real-time collision-detection pipeline that operates directly on large-scale point clouds inside the Godot game engine.",
+    //     image: PCCollisionThumbnail,
+    //     tags: [
+    //         "Simulation",
+    //         "Godot",
+    //         "GDScript"
+    //     ],
+    //     url: "blog/projects/pointcloud-collision"
+    // },
+    {
+        name: "Researching Scene Reconstruction in Godot",
+        description: "A research paper I'm working on in collaberation with Dr. Xin @ CSULB about facilitating CPS validation by introducing a pipeline that reconstructs scenes inside the Godot engine from an image.",
+        image: SceneGenThumbnail,
+        tags: [
+            "Python",
+            "OpenCV",
+            "MatPlotLib",
+            "Godot",
+            "Research",
+        ],
+        url: "blog/projects/scene-gen-godot"
     },
     {
         name: "Full Stack Parking App",
@@ -113,17 +137,6 @@ export const PROJECTS = [
             "Asana",
         ],
         url: "blog/projects/notaps"
-    },
-    {
-        name: "Behaviour Tree Agent",
-        description: "Utilizing the Unity engine to create an AI agent controlled by a behavior tree. The agent is designed to navigate procedurally generated levels, collect valuable items within its line of sight, and retreat to find a new path upon detecting an enemy.",
-        image: BTAThumbnail,
-        tags: [
-            "Unity",
-            "C#",
-            "Git"
-        ],
-        url: "blog/projects/bta"
     },
     {
         name: "Network Chat App",

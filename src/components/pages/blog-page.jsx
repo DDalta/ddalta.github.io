@@ -6,8 +6,6 @@ import rehypeRaw from 'rehype-raw';
 import ThemeToggle from "@/components/layout/theme-toggle.jsx";
 import useTheme from "@/hooks/use-theme.jsx"
 
-// TODO: abort controller
-
 const BlogPage = () => {
     const params = useParams();
 
@@ -32,7 +30,7 @@ const BlogPage = () => {
     if (error) {
         return (
                 <div className="flex flex-col">
-                    <h1>This project does not exist!</h1> 
+                    <h1>This page does not exist!</h1> 
                     <Link to="/" className="px-2 py-2 text-xl rounded-[16px] bg-gray-200">HOME</Link>
                 </div>
             );

@@ -8,15 +8,20 @@ tinify.key = process.env.TINIFY_KEY;
 
 const inputDir = "./raw_assets"
 
+// NOTE: output is "file" since looping though the input directory auto removes the "raw_assets" folder in path. (idk why)
 function compressImages() {
     try {
         fs.readdirSync(inputDir, {recursive: true}).forEach(file => {
             if (file.endsWith(".png") && !fs.existsSync(file)) {
+                const dir = path.dirname(file);
+                fs.mkdirSync(dir, { recursive: true });
+
                 const inputPath = path.join(inputDir, file);
-                const buffer = readFileSync(inputPath);
-                const dimensions = imageSize(buffer);
                 
                 if (file.includes("project-thumbnails")) {
+                    const buffer = readFileSync(inputPath);
+                    const dimensions = imageSize(buffer);
+
                     const source = tinify.fromFile(inputPath);
                     console.log(`Compressing ${file}...`);
 

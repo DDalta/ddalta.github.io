@@ -1,4 +1,4 @@
-# **BEHAVIOUR TREE AGENT**
+# **BEHAVIOR TREE AGENT FOR GAMES**
 
 Traverses through a procedural level containing treasures and enemies.
 
