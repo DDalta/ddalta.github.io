@@ -12,7 +12,7 @@ const About = () => {
                             Passionate about software development and love bringing projects to life from start to finish. My interest in tech started when I was young, as I loved tinkering with computers and figuring out how they worked. I followed that passion to get my Bachelors in Computer Science at UC Santa Cruz and then decided to work on my Master's at CSU Long Beach. My recent work involves building full stack projects and pipelines that facilitate simulation evaluation. I also have a huge passion for game development and having built small projects in Unity and Godot. When I'm not deep in a software projects, I like to switch things up with photography and video editing.
                         </p>
                         <div className="mx-auto w-full md:w-3/5 flex flex-col bg-gray-100 dark:bg-gray-700 px-4 py-4 rounded-xl transition-colors shadow-secondary-light dark:shadow-secondary-dark transition-shadow duration-300">
-                            <h3 className="text-xl font-medium">EDUCATIONS</h3>
+                            <h3 className="text-xl font-medium">EDUCATION</h3>
                             <ul>
                                 <li>
                                     <div className="flex justify-between">
@@ -29,7 +29,7 @@ const About = () => {
                             </ul>
                         </div>
                         <div className="mx-auto w-full md:w-3/5 flex flex-col bg-gray-100 dark:bg-gray-700 px-4 py-4 rounded-xl transition-colors shadow-secondary-light dark:shadow-secondary-dark transition-shadow duration-300">
-                            <h3 className="text-xl font-medium">WORK EXPERIENCES</h3>
+                            <h3 className="text-xl font-medium">WORK EXPERIENCE</h3>
                             <ul>
                                 <li>
                                     <div className="flex justify-between">

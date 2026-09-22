@@ -6,12 +6,6 @@ const ScrollReveal = ({ thre=0.2, children }) => {
     useEffect(() => {
 
         const { innerWidth, innerHeight } = window;
-        // let oberservMargin = "0px 0px -50px 0px"
-        
-        // if (innerWidth < 768) {
-            //     oberservMargin = "0px 0px -40px 0px"
-            // }
-            
 
         const observer = new IntersectionObserver(([entry]) => {
             if (entry.isIntersecting) {
@@ -24,7 +18,7 @@ const ScrollReveal = ({ thre=0.2, children }) => {
         }
 
         return () => observer.disconnect();
-    });
+    }, []);
 
     return (
         <div ref={ref} className="scroll-reveal">

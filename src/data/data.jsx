@@ -38,12 +38,7 @@ export const NAV = [
         "label": "CONTACT",
         "url": "#contact",
         "background": "#ffffff"
-    },
-    {
-        "label": "RESUME",
-        "url": "/resume.pdf",
-        "background": "#88b5fc"
-    },
+    }
 ];
 
 export const SOCIALS = [
