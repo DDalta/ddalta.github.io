@@ -6,6 +6,7 @@ import About from "./components/sections/about.jsx"
 import Skills from "./components/sections/skills.jsx"
 import Projects from "./components/sections/projects.jsx"
 import Contact from "./components/sections/contact.jsx"
+import FloatingCatButton from './components/layout/floatingcatbutton.jsx'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <FloatingCatButton />
     </div>
   )
 }

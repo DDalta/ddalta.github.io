@@ -12,7 +12,7 @@ const inputDir = "./raw_assets"
 function compressImages() {
     try {
         fs.readdirSync(inputDir, {recursive: true}).forEach(file => {
-            if (file.endsWith(".png") && !fs.existsSync(file)) {
+            if (file.endsWith(".JPEG") && !fs.existsSync(file)) {
                 const dir = path.dirname(file);
                 fs.mkdirSync(dir, { recursive: true });
 
